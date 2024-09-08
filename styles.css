@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+        font-family: "Happy Monkey", system-ui;
+           background-color: #a2d2ff; 
+           color: black
+           
+    
+          }
+          h1, h2, h3 {
+            text-shadow: 0px 0px 1px black;
+        
+          }
+    
+      #age {
+        background: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+      }
+      #DOB{
+        background: pink;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 0;
+      }
+      .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+    .img{
+        width: 550px;
+        border-radius: 50%;
+        border: 6px solid pink;
+    }
+    #gift-section{
+        margin: 50px;
+    
+    }
+    .gift-title{
+        margin: 10px;
+    }
+    .giftimage{
+        width: 400px;
+        height: 400px;
+        border: 6px solid white;
+        border-radius: 10px;
+        background-image: url(/images/istockphoto-1308342088-612x612.jpg);
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #gift-happy:hover{
+        background-image: url(/images/giphy\ \(1\).webp);
+    }
+    #gift-happy2:hover{
+        background-image: url(/images/200w.webp);
+        
+    }
+    #gift-awesome:hover{
+        background-image: url(/images/giphy\ awesome.webp);
+    }
+        background-image: url(/images/giphy\ awesome.webp)}
+        #gift-you{
+    height: 200px;
+    width: 400px;
+    
+        }
+        #gift-you:hover{
+            background-image: url(/images/cheers\ \(1\).webp);
+        }
